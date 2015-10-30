@@ -378,11 +378,6 @@ span{
 
 /* RAJOUTS */
 
-
-
-
-
-
 span.icon-bar {
     border: solid 1px #35BF88;
 }
@@ -407,6 +402,19 @@ h1 {
 
 .col-xs-2{
   text-align: center;
+}
+
+
+/* Page 404 */
+
+.error{
+  height: 400px;
+  box-shadow: 0.8;
+  margin-top: 200px;
+  text-align: center;
+  background-color: #1E222B;
+  color : white;
+  padding-top: 100px; 
 }
 
 

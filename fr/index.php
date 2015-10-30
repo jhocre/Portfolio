@@ -10,14 +10,15 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Portfolio johann creneguy en francais</title>
-    <meta name="description" content="Voici mon premier portfolio professionnel, je m'appelle Johann Creneguy et je suis actuellement à la recherche d'une formation en alternance développeur WEB full stack"/>
+    <meta name="description" content="Voici mon premier portfolio professionnel, je m'appelle Johann Creneguy et je suis actuellement à la recherche d'une formation en alternance développeur WEB full stack">
    
-    <link rel="icon" type="image/png" href="../img/favicon.png" />
+    <link rel="icon" type="image/png" href="../img/favicon.png">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300,700italic' rel='stylesheet' type='text/css'>
-    <link href="../css/cercle.css" rel="stylesheet" type="text/css" />
-	<link href="../css/cercle_font.css" rel="stylesheet" type="text/css" />
+    <link href="../css/cercle.css" rel="stylesheet" type="text/css">
+	<link href="../css/cercle_font.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
     <!-- Bootstrap -->
     <link href="../css/bootstrap.css" rel="stylesheet">
   
@@ -53,9 +54,9 @@ session_start();
 	    </div>
 
 	        <div id="fond_header">
-		        <div  class="container title center-small ">
+		        <div class="container title center-small ">
 		            <div class="row">
-		              <div class="col-md-12">
+		              <div class="col-md-12 animated bounceInRight">
 		                <h1><strong>Johann Creneguy</strong></h1>
 		                <h1>Développeur Full Stack</h1>
 		              </div>
@@ -79,6 +80,7 @@ session_start();
 	    				<ul class="nav navbar-nav navbar-right">
 		                  <li><a title="Johann Creneguy" href="#_accueil">Accueil</a></li>
 		                  <li><a title="À propos" href="#_about">À propos</a></li>
+		                  <li><a title="Compétences" href="#_skills">Compétences</a></li>
 		                  <li><a title="Mon curriculum" href="#_cv">CV</a></li>
 		                  <li><a title="Mes projets" href="#_projects">Portfolio</a></li>
 		                  <li><a title="Me contacter" href="#_contacter">Contact</a></li>
@@ -120,31 +122,31 @@ session_start();
 
 	   	</section>
 		<hr class="container">
-	   	<section>	
+	   	<section id="_skills">	
 	   				
-	   		<div class="container text-center">	
+	   		<div class="container text-center cercle">	
 	   			<h2>Compétences</h2>
 	   			<div class="chevron_titre">
 					<i class="fa fa-angle-double-up fa-2x"></i><i class="fa fa-angle-double-up fa-2x"></i><i class="fa fa-angle-double-up fa-2x"></i><i class="fa fa-angle-double-up fa-2x"></i>
 				</div>
 	   			<div class="row">
 	   				<div class="col-md-4 col-sm-4 col-xs-12">
-	   					<div class="myStathalf2" data-dimension="250" data-text="40%" data-info="PHP/MYSQL" data-width="30" data-fontsize="38" data-percent="40" data-fgcolor="#35BF88" data-bgcolor="#424242" data-type="half" data-icon="fa-task"></div>
+	   					<div class="myStathalf2" data-dimension="250" data-text="PHP/MYSQL" data-info="" data-width="25" data-fontsize="20" data-percent="40" data-fgcolor="#35BF88" data-bgcolor="#424242" data-type="half" data-icon="fa-task"></div>
 	   				</div>
 	   				<div class="col-md-4 col-sm-4 col-xs-12">
-	   					<div class="myStathalf2" data-dimension="250" data-text="70%" data-info="HTML5/CSS3" data-width="30" data-fontsize="38" data-percent="70" data-fgcolor="#35BF88" data-bgcolor="#424242" data-type="half" data-icon="fa-task"></div>
+	   					<div class="myStathalf2" data-dimension="250" data-text="HTML5/CSS3" data-info="" data-width="25" data-fontsize="20" data-percent="70" data-fgcolor="#35BF88" data-bgcolor="#424242" data-type="half" data-icon="fa-task"></div>
 	   				</div>
 	   				<div class="col-md-4 col-sm-4 col-xs-12">
-	   					<div class="myStathalf2" data-dimension="250" data-text="50%" data-info="JS/JQUERY" data-width="30" data-fontsize="38" data-percent="50" data-fgcolor="#35BF88" data-bgcolor="#424242" data-type="half" data-icon="fa-task"></div>
+	   					<div class="myStathalf2" data-dimension="250" data-text="JS/JQUERY" data-info="" data-width="25" data-fontsize="20" data-percent="50" data-fgcolor="#35BF88" data-bgcolor="#424242" data-type="half" data-icon="fa-task"></div>
 	   				</div>
 	   				<div class="col-md-4 col-sm-4 col-xs-12">
-	   					<div class="myStathalf2" data-dimension="250" data-text="80%" data-info="BOOTSTRAP" data-width="30" data-fontsize="38" data-percent="80" data-fgcolor="#35BF88" data-bgcolor="#424242" data-type="half" data-icon="fa-task"></div>
+	   					<div class="myStathalf2" data-dimension="250" data-text="BOOTSTRAP" data-info="" data-width="25" data-fontsize="20" data-percent="80" data-fgcolor="#35BF88" data-bgcolor="#424242" data-type="half" data-icon="fa-task"></div>
 	   				</div>
 	   				<div class="col-md-4 col-sm-4 col-xs-12">
-	   					<div class="myStathalf2" data-dimension="250" data-text="80%" data-info="CMS/WORDPRESS" data-width="30" data-fontsize="38" data-percent="80" data-fgcolor="#35BF88" data-bgcolor="#424242" data-type="half" data-icon="fa-task"></div>
+	   					<div class="myStathalf2" data-dimension="250" data-text="CMS/WORDPRESS" data-info="" data-width="25" data-fontsize="20" data-percent="80" data-fgcolor="#35BF88" data-bgcolor="#424242" data-type="half" data-icon="fa-task"></div>
 	   				</div>
 	   				<div class="col-md-4 col-sm-4 col-xs-12">
-	   					<div class="myStathalf2" data-dimension="250" data-text="100%" data-info="MARGARITA" data-width="30" data-fontsize="38" data-percent="100" data-fgcolor="#35BF88" data-bgcolor="#424242" data-type="half" data-icon="fa-task"></div>
+	   					<div class="myStathalf2" data-dimension="250" data-text="MARGARITA" data-info="" data-width="25" data-fontsize="20" data-percent="100" data-fgcolor="#35BF88" data-bgcolor="#424242" data-type="half" data-icon="fa-task"></div>
 	   				</div>
 	   			</div>
 	    	</div>
@@ -285,7 +287,7 @@ session_start();
 	    	<div class="container text-center">
 	    		<h2>En savoir plus sur moi !</h2>
 	    		<a href="https://fr.linkedin.com/pub/johann-creneguy/b4/213/524"><i class="fa fa-linkedin-square fa-5x in" title="visitez mon linkedin !"></i></a>
-	    		<a id="viadeo" href="https://fr.linkedin.com/pub/johann-creneguy/b4/213/524" title="visitez mon Viadeo !"></a>
+	    		<a id="viadeo" href="http://www.viadeo.com/fr/profile/00219jq91x478r6e?readOnly&language=fr&ga_from=Fu:%2Fprofilev3%2F;Fb%3Aprofile-Top-bouton%3BFe%3Apreview%3B" title="visitez mon Viadeo !"></a>
 	    		<a href="https://github.com/jhocre"><i class="fa fa-github-square fa-5x in" title="visitez mon GitHub !"></i></a>
 
 	    	</div>

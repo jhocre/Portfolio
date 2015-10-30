@@ -10,13 +10,14 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Portfolio johann creneguy in english</title>
-    <meta name="description" content="My name is Johann Creneguy and this is my first professional portfolio, i&#130;m actually looking for training intership WEB developer full stack."/>
+    <meta name="description" content="My name is Johann Creneguy and this is my first professional portfolio, i&#130;m actually looking for training intership WEB developer full stack.">
    
-   	<link rel="icon" type="image/png" href="../img/favicon.png" />
+   	<link rel="icon" type="image/png" href="../img/favicon.png">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300,700italic' rel='stylesheet' type='text/css'>
-    <link href="../css/cercle.css" rel="stylesheet" type="text/css" />
-	<link href="../css/cercle_font.css" rel="stylesheet" type="text/css" />
+    <link href="../css/cercle.css" rel="stylesheet" type="text/css">
+	<link href="../css/cercle_font.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="../css/animate.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <!-- Bootstrap -->
     <link href="../css/bootstrap.css" rel="stylesheet">
@@ -55,7 +56,7 @@ session_start();
 	        <div id="fond_header">
 		        <div  class="container title center-small ">
 		            <div class="row">
-		              <div class="col-md-12">
+		              <div class="col-md-12 animated bounceInRight">
 		                <h1><strong>Johann Creneguy</strong></h1>
 		                <h1>Web Developer Full Stack</h1>
 		              </div>
@@ -79,6 +80,7 @@ session_start();
 	    				<ul class="nav navbar-nav navbar-right">
 		                  <li><a title="Johann Creneguy" href="#_accueil">Home</a></li>
 		                  <li><a title="À propos" href="#_about">About</a></li>
+		                  <li><a title="Compétences" href="#_skills">Skills</a></li>
 		                  <li><a title="Mon curriculum" href="#_cv">CV</a></li>
 		                  <li><a title="Mes projets" href="#_projects">Portfolio</a></li>
 		                  <li><a title="Me contacter" href="#_contacter">Contact</a></li>
@@ -117,7 +119,7 @@ session_start();
 
 	   	</section>
 		<hr class="container">
-	   	<section>	
+	   	<section id="_skills">	
 	   				
 	   		<div class="container text-center">	
 	   			<h2>Skills</h2>
@@ -282,7 +284,7 @@ session_start();
 	    	<div class="container text-center">
 	    		<h2>More about me!</h2>
 	    		<a href="https://fr.linkedin.com/pub/johann-creneguy/b4/213/524"><i class="fa fa-linkedin-square fa-5x in" title="visit my linkedin !"></i></a>
-	    		<a id="viadeo" href="https://fr.linkedin.com/pub/johann-creneguy/b4/213/524" title="visitez my Viadeo !"></a>
+	    		<a id="viadeo" href="http://www.viadeo.com/fr/profile/00219jq91x478r6e?readOnly&language=fr&ga_from=Fu:%2Fprofilev3%2F;Fb%3Aprofile-Top-bouton%3BFe%3Apreview%3B" title="visitez my Viadeo !"></a>
 	    		<a href="https://github.com/jhocre"><i class="fa fa-github-square fa-5x in" title="visit my GitHub !"></i></a>
 	    	</div>
 	    </section>
